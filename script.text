@@ -10,51 +10,112 @@ Also, thank you to those in the audience for coming to this presentation.
 
 Today I plan to share with you my background and qualifications and then answer the prompt I was given for this presentation. 
 
+(first Kip slide)
+
 I love technology. 
 
 Specifically computer technology. 
 
 Like past technological advances such as the printing press and the book computer technology has revolutionized the world. 
 
+(slide of bicycle for the mind?)
+
 I love technology's influence to enable us to do, to create, and to achieve. 
 
-Despite my love for technology I recognize its limitations and that it isn't a silver bullet for everything.
+(slide of cartoon poking fun at technology solving problems with unintended consequences) 
+
+Despite my love for technology I recognize its limitations; that it isn't a silver bullet for everything.
+
+(second Kip slide)
 
 But I still love technology. 
 
 I have had a lot of experience in my life with technology. 
 
-I grew up with it. 
+I grew up with it at home. 
 
 I used it at school.
 
 I used it at the library. 
 
+- I also love libraries?
+
 I received an undergrate degree at BYU in Geography with an emphasis in GIS (Geographic Information Systems); essentially computerized mapping. 
 
 It was here at BYU taking an introductory GIS course that I was introduced to the concept of metadata. 
 
-(define metadata?)
+Crudely speaking metadata is data about data. More precisely it can be defined as "the structured, encoded data that describe characteristics of information-bearing entities" (Zeng & Qin, 2016, p. 5). 
 
-I worked for OIT as a student employee
+I worked for OIT as a student employee helping with account management and security-related issues. 
 
-Towards the end of my undergraduate degree I did an internship with Provo City working on an address database project using GIS software. 
+Towards the end of my undergraduate degree I completed an internship with Provo City working on an address database project using GIS software. 
 
-After graduating I worked for Esri
+I then got a job as a software tester working for a GIS company called Esri. 
 
-(what I did at Esri)
+At Esri there was a lot of autonomy given to employees to solve problems and get their work accomplished. 
 
-(started learning how to program on my own; iOS development)
+This helped me learn to ask questions, listen carefully, and take responsibility for my assignments. 
 
-Worked as a contractor for the USFS implementing the software I helped test at Esri. 
+Around that time a little thing called the iPhone was invented. 
+
+I was intrigued and learned on my own and in my spare time how to develop apps for iPhone, iPod Touch, and later iPad. 
+
+I did some freelance work but mostly made apps for my own benefit.
+
+I wanted to push myself in what I was comfortable doing and learn new technologies and skills. 
+
+I worked as a contractor for the USFS implementing the GIS software I helped test at Esri. 
+
+The product I helped the FS implement was a server product that could publish map data for use on the WWW or within an organization's intranet. 
+
+I was part of the FS's efforts to create a national data warehouse of all FS owned and created geographic data. 
+
+Historically the FS has been an organization run from the bottom-up. The national office would give a lot of autonomy to local units to do what it takes to get their work done. This included creating and maintaining geographic datasets for each forest. The FS data warehouse effort was to help bring together data from each unit into national datasets that the agency could better leverage for accomplishing its mission of caring for the land and serving people. 
+
+I worked with the data stewards and data warehouse staff to publish data from the data warehouse as map services available for use on the WWW in projects and by staff within the FS as well as used by individuals or organizations outside the FS. 
+
+(slide showing the USFS recreational map)
+
+This is an example project that I worked on utilizing the map services I published. 
+
+While at the FS I taught myself the Python programming language to help automate tasks I had as well as make sure those tasks were accomplished consistently and accurately each time. 
+
+While at the FS I gained an interest in completing a Masters degree. 
+
+While researching different masters programs I stumbled across BYU's information pages about a library science degree.
+
+The more I looked into getting a library science degree the more I was drawn to the degree. I started my MLIS degree with SJSU in the fall of 2013. The library science degree was a great opportunity to combine my love of technology and my love of libraries.
+
+I started my MLIS degree with the goal of working in an academic library. 
+
+In 2014 I found the position I am currently here at the HBLL working as a web developer in the Web Development department.
+
+I work on a variety of projects that are internal to the library staff as well as projects for students, faculty, and other community patrons of the library. 
+
+- more on my current work
+
+In 2016 I completed my MLIS degree.
+
+# So what on my background?
+
+Enthusiasm for technology and the library
+
+I learned the value of good documentation and being detail-oriented in completing tasks and assignments. 
+
+I also learned to collaborate and communicate with others in accomplishing tasks and work. 
+
+(Location, location, location slide?)
+
+I learned the value of data and metadata in these positions.
+
+I also learned the importance of beginning with the end in mind and being user-focused. 
 
 ***
-
-- I had a student job on-campus working in OIT using technology
-- I got an internship at Provo City as a GIS technician working on an address database. 
-- After college I moved to southern California working for the GIS software company Esri.
-- I worked with developers testing a server product that could expose map data for use on the internet. 
 
 - Apple logo
 - video clip
 - intersection signage
+
+# References
+
+Zeng, M. L., Qin, J. (2016). *Metadata*, Chicago, Illinois: Neal Schuman. 
