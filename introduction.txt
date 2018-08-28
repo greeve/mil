@@ -1,4 +1,4 @@
-# Introduction
+# Prompt
 
 In an effort to increase the visibility of collections, the library community has identified linked-data as a means to publish metadata describing their holdings on the WWW. With such metadata available to search engines libraries will become positioned where people actually look for information, -- on Yandex, or Google. The idea is simple, but the process is not.
 
@@ -6,25 +6,9 @@ Optimizing metadata for the Web will prove to be a massive, long-term undertakin
 
 Plan your presentation to last 40 minutes. This will allow 15 minutes for questions.
 
-## Thesis ideas
+# Thesis
 
-The transition from “signpost” encoding models like MARC21, EAD, and Dublin Core to the use of linked data models that are more optimized for publishing and consuming data on the web
-
-URIs, HTTP, and RDF will be a massive, long-term undertaking.
-
-To help the HBLL optimize, convert, and produce metadata for the web and transition from “signpost” encoding models like MARC21, EAD, and Dublin Core to the use of URIs, HTTP, and RDF will be a massive, long-term undertaking 
-
----
-
-Libraries contain within them a rich history and tradition 
-
-There is a rich tradition and history of library innovations and 
-
-From Panizzi’s revolutionary ideas about works and books, to Cutters and Dewey’s rules for the catalog and cataloging, to Ranganathan’s laws of library science 
-
----
-
-In 1931 S. R. Ranganathan proposed five laws of library science that stand as part of the rich foundation of librarianship.
+In 1931 S. R. Ranganathan posited five laws of library science:
 
 1. Books are for use.
 2. Every reader his/her book.
@@ -32,33 +16,18 @@ In 1931 S. R. Ranganathan proposed five laws of library science that stand as pa
 4. Save the time of the reader.
 5. The library is a growing organism.
 
-Many scholars have riffed on these five laws over the years to account for changes and advances in the world and in library science. Other media or format types, the WWW, 
+I want to focus our attention on the fifth law: the library is a growing organism.
 
-One scholar, Michael Gorman, updated Ranganathan’s work and created these five laws:
+“It is an accepted biological fact that a growing organism alone will survive. An organism which ceases to grow will petrify and perish. The Fifth Law invites our attention to thefact that the library, as an institution, has all theattributes of a growing organism. A growing organism takes in new matter, casts off old matter, changes in size and takes new shapes and forms. Apart from sudden and apparently discontinuous changes involved in metamorphosis, it is also subject to a slow continuous change which leads to what is known as 'variation', in biological parlance, and to the evolution of new forms. This change is so slow but so effective that the protagonists of evolution assert that it is the shapeless undifferentiated protozoa of the Palaeozoic agethat has transformed itself, by successive stages of variation, into the most differentiated specimen of creation —the human being. The one thing that has been persisting through all those changes of form has been the vital principle of life. So it is with the library” (Ranganathan, 1931, p. 382-383).
 
-1. Libraries serve humanity
-2. Respect all forms by which knowledge is communicated
-3. Use technology intelligently to enhance service
-4. Protect free access to knowledge
-5. Honor the past and create the future
-
----
-
-We are at sea in a deluge of data. 
-
-We live in a time where we are at sea in a deluge of data but with a dearth of information. 
-
-We are surrounded by a deluge of data while living in a dearth of information. 
-
----
-
-Metadata. Data about data. I was first exposed to the idea of metadata while taking an introductory GIS course at BYU. 
-
-## Thesis
+“But the vital principle of the library—whichhas struggled through all the stages of its evolution,
+is common to all its different forms and will persistto be its distinguishing feature for all time to come—is that it is an instrument of universal education,
+and assembles together and freely distributes allthe tools of education and disseminates knowledga
+with their aid. This vital principle—'the spirit ofthe library'—persisting through all its forms islike the inner man;” (Ranganathan, 1931, p. 415). 
 
 The transition from “signpost” library metadata encoding models like MARC21, EAD, and Dublin Core to the use of linked data will be a massive, long-term undertaking. The success of this work will depend upon establishing a multi-year roadmap that includes objectives and milestones and considers the need for linked-data production, legacy metadata conversion, and entity resolution. 
 
-## Main body ideas
+# Main body ideas
 
 - Maps to introduce the roadmap idea/thesis
 - Alice in Wonderland and the cat to introduce why/destination/begin with the end in mind
