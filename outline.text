@@ -105,8 +105,9 @@
     - ArchivesSpace + EAD
     - CONTENTdm + DC
 
-## Upgrade Data
+## Upgrade data
 
+- reconcile and enrich
 - existing/known upgrade tasks
 - can we measure the number of types of data upgrading needed?
 - generate reports on data needing upgrading?
@@ -116,6 +117,61 @@
 - headings that aren't authorizing
 - data consistency
 - duplicates
+- determine toolsets and workflows
+    - MarcEdit
+    - (Shieh & Reese, 2015)
+    - OpenRefine
+    - Scripts
+    - source control system
+        - see history of changes
+        - revert
+        - see diffs
+- add URIs (reconciliation)
+    - automate as much as feesibly possible
+    - have staff review
+    - use various sources (LCNAF, VIAF, LCSH)
+- Named-entity resolution (NER) 
+    - link to Wikidata/Wikipedia
+- start with smaller chunks of data to gain experience
+    - sample from the local NAF
+    - types of bibliographic records (e.g. by format or location)
+    - sources of records (i.e. Sirsi, ArchivesSpace, CONTENTdm)
+- Apply to larger amounts of data working towards applying it to all sets of data
+
+## Legacy data conversion
+
+- in parallel (or in addition) to existing systems
+- determine tools and workflows
+    - source control system
+- convert MARC to RDF (BIBFRAME? Schema.org?)
+- convert RDF to MARC to check how well our conversion did and improve the conversion process
+- progressive conversion
+    - map out the discrete sets of data to convert
+    - convert a set at a time
+    - qa/qc after each conversion
+
+## Data publication
+
+- ways of publishing
+- Jacob Shelby
+- 5 stars of linked data (Tim Berners-Lee)
+- integrate with ScholarSearch
+    - goal is to improve what and how we show information to patron
+    - where can we help improve ScholarSearch data ingestion/transformation process?
+- create/experiment with new ways of exploring/browing/searching the data
+
+## Native linked-data production
+
+- new workbench/tools/processes
+    - use 3rd part tools where they work
+    - otherwise will need to develop tools in-house
+- source control
+    - diff changes
+    - history of changes and revert
+- less typing and more lookup and dropdown lists (strings to things)
+- helps in system to format data entrty appropriately
+- strongly typed 
+- be able to check/verify the data are valid
 
 ## Evaluation
 
@@ -124,6 +180,13 @@
 - did we accomplish what we set out to accomplish?
 - did we improve things for the patron and staff?
 - Our our relationships with each other in the library and with other interested parties and patrons better than we started?
+- Our interested parties happier as an outcome of our efforts?
+
+## Communication
+
+- essential to this working
+- don't make assumptions when deciding things
+- make sure to ask the right person
 
 ## Phase 2
 
@@ -132,12 +195,6 @@
 - update MARC data to include URIs
 - convert legacy data
 - ability to convert from MARC to LD, LD to MARC
-
-## Data reconciliation
-
-## Data enrichment
-
-## Data presentation/publication
 
 ## Phase 3
 
