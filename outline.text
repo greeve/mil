@@ -115,6 +115,7 @@
 - prioritize upgrade tasks
     - low hanging fruit
     - more complex data issues
+- determine acceptable level of upgraded
 - headings that aren't authorizing
 - data consistency
 - duplicates
@@ -130,7 +131,7 @@
 - add URIs (reconciliation)
     - automate as much as feesibly possible
     - have staff review
-    - use various sources (LCNAF, VIAF, LCSH)
+    - use various sources (LCNAF, VIAF, LCSH, Worldcat identities)
 - Named-entity resolution (NER) 
     - link to Wikidata/Wikipedia
 - start with smaller chunks of data to gain experience
