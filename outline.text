@@ -167,11 +167,13 @@
 - new workbench/tools/processes
     - use 3rd part tools where they work
     - otherwise will need to develop tools in-house
+    - bus/event driven
+    - evolve over time
 - source control
     - diff changes
     - history of changes and revert
 - less typing and more lookup and dropdown lists (strings to things)
-- helps in system to format data entrty appropriately
+- helps in system to format data entry appropriately
 - strongly typed 
 - be able to check/verify the data are valid
 
