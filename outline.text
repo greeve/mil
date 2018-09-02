@@ -5,8 +5,13 @@
 # Context/Background
 
 - define terms
-- explain need for roadmap and answering the 'why'
 - data model and linked data primer
+    - relationships do the heavy lifting to create context and understanding
+    - linked data
+        - data representation is more flexible
+        - easier to get stuff in
+        - harder to get stuff out
+- explain need for roadmap and answering the 'why'
 
 # Roadmap
 
@@ -71,6 +76,7 @@
 - tech/cataloging forums for library
     - are there existing forums where this is shared with the library?
 - regular trainings (monthly? biweekly?)
+- ongoing training to help staff in smaller groups rather than everyone all at once
 
 ## Community outreach and involvement
 
@@ -97,16 +103,7 @@
     - IFLA
 - talk with vendors?
 
-## ?
-
-- develop crosswalks between formats
-    - BIBFRAME to Schema.org
-    - MARC to BIBFRAME
-    - MARC to Schema.org + bib
-    - ArchivesSpace + EAD
-    - CONTENTdm + DC
-
-## Upgrade data
+## Update data
 
 - reconcile and enrich
 - existing/known upgrade tasks
@@ -132,10 +129,13 @@
     - automate as much as feesibly possible
     - have staff review
     - use various sources (LCNAF, VIAF, LCSH, Worldcat identities)
+    - use reconciliation services where available
+    - be able to mint our own local URIs
 - Named-entity resolution (NER) 
     - link to Wikidata/Wikipedia
 - start with smaller chunks of data to gain experience
     - sample from the local NAF
+    - try to extract more value out of the NAF
     - types of bibliographic records (e.g. by format or location)
     - sources of records (i.e. Sirsi, ArchivesSpace, CONTENTdm)
 - Apply to larger amounts of data working towards applying it to all sets of data
@@ -151,10 +151,17 @@
     - map out the discrete sets of data to convert
     - convert a set at a time
     - qa/qc after each conversion
+- develop crosswalks between formats
+    - BIBFRAME to Schema.org
+    - MARC to BIBFRAME
+    - MARC to Schema.org + bib
+    - ArchivesSpace + EAD
+    - CONTENTdm + DC
 
 ## Data publication
 
 - ways of publishing
+- publisher and consumer of linked data (i.e. pull info down from other sources like Wikipedia and display with local bibliographic/authority metadata)
 - Jacob Shelby
 - 5 stars of linked data (Tim Berners-Lee)
 - integrate with ScholarSearch
@@ -169,6 +176,7 @@
     - otherwise will need to develop tools in-house
     - bus/event driven
     - evolve over time
+    - could evolve to a de-integrated library system with a common set/vocabulary of data with solid interoperability
 - source control
     - diff changes
     - history of changes and revert
@@ -176,11 +184,15 @@
 - helps in system to format data entry appropriately
 - strongly typed 
 - be able to check/verify the data are valid
+- data storage in ILS vs. data model
+    - don't need to understand how the ILS is storing the data
+    - how and what things can be said
 
 ## Evaluation
 
 - reflection and lessons learned
 - compare results to assessment outcomes/goals/objectives
+- user tests
 - did we accomplish what we set out to accomplish?
 - did we improve things for the patron and staff?
 - Our our relationships with each other in the library and with other interested parties and patrons better than we started?
@@ -190,7 +202,7 @@
 
 - essential to this working
 - don't make assumptions when deciding things
-- make sure to ask the right person
+- make sure to involve the right people for each phase and project
 
 ## Phase 2
 
