@@ -14,7 +14,7 @@ The first milestone or stage is assessment. We need to assess where we are curre
 
 This assessment stage includes diagramming and documenting the full lifecycle of a metadata record from birth to presentation; from creation or copy to the patron as exposed in ScholarSearch and from the main library website. 
 
-This lifecycle captures the processes followed in all the systems we use (e.g. Workflows, ArchivesSpace, CONTENTdm) for creating, importing, maintaining, fixing, and converting records so that they can be used by patrons and staff for information retrieval. 
+This lifecycle captures the processes followed in all the systems we use (e.g. Symphony, ArchivesSpace, CONTENTdm) for creating, importing, maintaining, fixing, and converting records so that they can be used by patrons and staff for information retrieval. 
 
 This lifecycle diagram will help give the library the full picture we need to be able to assess where we currently are and what is currently being done as it relates to metadata and linked data. 
 
@@ -35,47 +35,43 @@ What are the needs of our users?
 
 Needs can be assessed by analyzing usage statistics (e.g. ScholarSearch stats tracker) for better understanding how our collections and items are being accessed and used. 
 
-Conducting user tests is also another way to help assess user needs.
+Conducting user tests is also another way to assess user needs.
 This establishes a baseline of data to evaluate how well our efforts improve the experience of library patrons and staff. 
 
-## Data Update
+## Metadata Update
 
-- reconcile and enrich
-- existing/known upgrade tasks
-- can we measure the number of types of data upgrading needed?
-- generate reports on data needing upgrading?
-- prioritize upgrade tasks
-    - low hanging fruit
-    - more complex data issues
-- determine acceptable level of upgraded
-- headings that aren't authorizing
-- data consistency
-- duplicates
-- determine toolsets and workflows
-    - MarcEdit
-    - (Shieh & Reese, 2015)
-    - OpenRefine
-    - Scripts
-    - source control system
-        - see history of changes
-        - revert
-        - see diffs
-- add URIs (reconciliation)
-    - automate as much as feesibly possible
-    - have staff review
-    - use various sources (LCNAF, VIAF, LCSH, Worldcat identities)
-    - use reconciliation services where available
-    - be able to mint our own local URIs
-- Named-entity resolution (NER) 
-    - link to Wikidata/Wikipedia
-- start with smaller chunks of data to gain experience
-    - sample from the local NAF
-    - try to extract more value out of the NAF
-    - types of bibliographic records (e.g. by format or location)
-    - sources of records (i.e. Sirsi, ArchivesSpace, CONTENTdm)
-- Apply to larger amounts of data working towards applying it to all sets of data
+Our current metadata records exist in various systems (e.g. ArchivesSpace, CONTENTdm, and SirsiDynix Symphony) and have artifacts from past systems (i.e. RLIN and NOTIS) and past metadata content standards.
 
-## Data Conversion
+This stage is about reconciling and enriching our existing metadata to position us for conversion to linked data. 
+
+This work would include any existing efforts to upgrade metadata so the metadata is complete, correct, consistent, and avoids duplication.
+Are there headings that aren't authorizing, data that lacks consistency, or duplicate records?
+
+To prevent getting stuck in this stage we would need to identify and prioritize the upgrade tasks and determine what an acceptable data quality level is that we are trying to achieve. 
+What is the acceptable level of upgrade for our metadata?
+What reports do we have that can help us identify data upgrade tasks?
+Can we measure the number of types of metadata upgrading we need? 
+
+Breaking this work down into categories or groups of metadata (i.e. item format, location, source) will help manage and organize the work to be done in this stage. 
+We can start with smaller chunks of metadata to work on (e.g. the local name authorities) to learn best practices and gain experience that can be applied to larger sets of metadata.
+
+Another task in this stage is to add URIs to existing entities. In the MARC records this is accomplished by using the 0 subfield. 
+Work will need to be done to see how to best accomplish this step with other metadata formats. 
+Work we do in this stage to reconcile entities and assign a URI will ease our transition when we convert to a linked data format. 
+This reconcilliation step would utilize various reconciliation services to connect entities in our current metadata records with entities that already exist as linked open data. 
+Some sources include LCNAF, VIAF, LCSH, Worldcat identities, and Wikidata.
+Where we can't reconcile an entity in our metadata to an existing URI we will need to mint our own local URIs. 
+
+The use of named-entity resolution (NER) is an area to explore to extract out data from descriptive metadata fields in an automated fashion. Extracting these entities helps identify and reconcile entities further in cases where a simply lookup is insufficient.
+
+Our goal would be to automate this upgrade work as much as possible. 
+Staff would also be involved in reviewing the upgraded metadata to make sure that any automated workflow is running correctly. 
+Where we can't automate tasks successfully we would have staff intervene.
+
+Choosing the best tools and approaches for each upgrade task will be crucial to assist in the automation and review of each upgrade task. 
+Example tools and approaches to this work would include MarcEdit (Shieh & Reese, 2015), OpenRefine, programming scripts, and the use of a source control system that gives us the ability to see the history of changes we make to records, revert to previous versions of the metadata record, and see side-by-side diffs of what changes we make to a record. 
+
+## Metadata Conversion
 
 - in parallel (or in addition) to existing systems
 - determine tools and workflows
@@ -93,7 +89,7 @@ This establishes a baseline of data to evaluate how well our efforts improve the
     - ArchivesSpace + EAD
     - CONTENTdm + DC
 
-## Data Publication
+## Metadata Publication
 
 - ways of publishing
 - publisher and consumer of linked data (i.e. pull info down from other sources like Wikipedia and display with local bibliographic/authority metadata)
@@ -104,7 +100,7 @@ This establishes a baseline of data to evaluate how well our efforts improve the
     - where can we help improve ScholarSearch data ingestion/transformation process?
 - create/experiment with new ways of exploring/browing/searching the data
 
-## Data Production
+## Metadata Production
 
 - new workbench/tools/processes
     - use 3rd part tools where they work
@@ -165,7 +161,7 @@ This includes learning about:
 - the art and science of cataloging
 - authority work
 - MARC records and their variation and nuance including discussion about serials, bound-with items, series, and electronic items
-- cataloging tools such as MarcEdit, OCLC connexion, and Workflows
+- cataloging tools such as MarcEdit, OCLC connexion, and SirsiDynix Symphony
 
 This training can be accomplished in a variety of arenas:
 
