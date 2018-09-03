@@ -1,6 +1,6 @@
 # Introduction
 
-In 1931 S. R. Ranganathan posited five laws of library science:
+In 1931 S. R. Ranganathan (rang-a-na-thun) posited five laws of library science:
 
 1. Books are for use.
 2. Every reader his/her book.
@@ -16,4 +16,4 @@ I want to focus our attention on the fifth law: the library is a growing organis
 
 # Thesis
 
-The transition from “signpost” library metadata encoding models like MARC21, EAD, and Dublin Core to the use of linked data will be a massive, long-term undertaking. The success of this work will depend upon establishing a multi-year roadmap that includes objectives and milestones and considers the need for linked-data production, legacy metadata conversion, and entity resolution. 
+The transition from “signpost” library metadata encoding models like MARC21, EAD, and Dublin Core to the use of linked data will be a massive, long-term undertaking. The success of this work will depend upon establishing a multi-year roadmap that includes objectives and milestones and considers the need for legacy metadata conversion, linked-data production, and entity resolution. 

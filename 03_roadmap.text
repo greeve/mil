@@ -1,102 +1,42 @@
 # Roadmap
 
-## Communication
+Roadmaps are a plan or strategy intended to achieve a particular purpose. They help one see where they are, where they are going, and how to get to their destination. Here is a road map for helping the Harold B. Lee Library transition from the current metadata formats to linked data. 
 
-- essential to this working
-- don't make assumptions when deciding things
-- make sure to involve the right people for each phase and project
-- impact throughout the library
-- multi-division/multi-department effort; keep people in the loop
-- Regular updates/emails/reports on progress
+This road map consists of two types of milestones (or in other words stages): on-going and discrete milestones. Communication, training, and scholarship are milestones that will be on-going throughout the transition from current metadata formats to linked data. Assessment, data update, data conversion, data publication, data production, and evaluation are discrete milestones that have a beginning and end. 
 
-## Training
-
-- IT > cataloging
-    - learn web technologies
-    - HTML/CSS/JS
-    - Python
-    - data models
-        - flat (csv, tsv)
-        - e-r, rmdbs (sql)
-        - hierarchical (xml)
-        - graph (rdf)
-    - Linked data
-    - SPARQL
-    - Wikipedia
-    - Wikidata
-    - OpenRefine
-- cataloging > IT
-    - learn cataloging work
-    - understand the art and science of cataloging
-    - How authority work is done
-    - How items are cataloged/processed
-    - Learning about MARC records and various types of formats and their nuance
-        - serials
-        - bound width
-        - series
-        - electronic items?
-    - MarcEdit
-- understand/appreciate the tech
-- understand/appreciate cataloging and metadata
-- tech/cataloging forums for library
-    - are there existing forums where this is shared with the library?
-- regular trainings (monthly? biweekly?)
-- ongoing training to help staff in smaller groups rather than everyone all at once
-
-## Scholarship
-
-- scholarly community outreach and involvement
-- attend conferences
-- publish in journals
-- present at conferences
-- reach out to other institutions to learn from their experiences
-    - U of U
-    - U of Nevada
-    - Stanford
-    - U.C. Davis
-    - Cornell
-    - Harvard
-    - International? Academic research libraries in Europe?
-    - LOC
-- join professional or standards organizations/commitees/projects
-    - BIBFRAME
-    - OCLC project passage
-    - LD4P
-    - PCC
-    - NACO/SACO
-    - semantic web orgs
-    - Schema.org and bibliographic extension (https://bib.schema.org)
-    - IFLA
-- talk with vendors?
+I will now explain each milestone in this road map.
 
 ## Assessment
 
-- Have to know where we have come and where we are to inform where we are going
-- begin with the end in mind (*is this appropriate here?*)
-- assess where we are currently
-- where have we come from
-- what has been done
-- what is being done
-    - ScholarSearch
-    - 856 fields?
-    - 0 subfield?
-    - Wikipedia/Wikidata work by HBLL Communications
-- understand fully the lifecycle of a metadata record 
-    - from birth to presentation
-    - from creation/copy to ScholarSearch
-    - process of creating/importing/maintaining/fixing/converting current records
-- usage stats (e.g. ScholarSearch stats tracker)
-- user testing
-- requirements gathering
-    - user focused
-    - needs assessment
-    - what needs do we have?
-    - what is the low hanging fruit we can fix?
-- establish metrics for measuring how we did at end
-    - optimize/efficient from a tech perspective
-    - also important is if our relationships in the library (between divisions/departments) improved through this process
-    - Is this a success if our relationships improves?
-    - Is this a success if our relationships with patrons (i.e. students, faculty, campus community) improves?
+"In order to get where you want to go, you have to start out from where you are" (Merrill, 1989, p. 7).
+
+The first milestone or stage is assessment. We need to assess where we are currently, where we have come from, what has been done, and what is currently being done as it relates to metadata in the library. 
+
+This assessment stage includes diagramming and documenting the full lifecycle of a metadata record from birth to presentation; from creation or copy to the patron as exposed in ScholarSearch and from the main library website. 
+
+This lifecycle captures the processes followed in all the systems we use (e.g. Workflows, ArchivesSpace, CONTENTdm) for creating, importing, maintaining, fixing, and converting records so that they can be used by patrons and staff for information retrieval. 
+
+This lifecycle diagram will help give the library the full picture we need to be able to assess where we currently are and what is currently being done as it relates to metadata and linked data. 
+
+It can help identify pain points in the process or duplication of effort. 
+This can illuminate low hanging fruit that if fixed could help improve our existing processes and better prepare us for the transition to linked data.
+
+This entire transition effort needs to be user-focused meaning that we focus on the needs of our users (i.e. students, faculty, BYU community, and staff). Our efforts must be in the service of our users to improve their ability to discover and retrive information.
+
+To help assess and evaluate our success towards our patrons and staff we need to establish how we define, measure, and optimize for success. 
+What are the quantitative measures for success?
+In addition to quantitative measurements we should also consider how our relationships within the library between staff, departments, and divisions are improved through this transition. 
+Is it success if our relationships improve with each other in the library as well as with students, faculty, and the rest of the campus community?
+Are we a success if our efforts on this work leaves our community happier than before? (reference to Whats New podcast, episode 10)
+
+Gathering requirements is another key step in this stage. 
+What needs do we as a library have? 
+What are the needs of our users? 
+
+Needs can be assessed by analyzing usage statistics (e.g. ScholarSearch stats tracker) for better understanding how our collections and items are being accessed and used. 
+
+Conducting user tests is also another way to help assess user needs.
+This establishes a baseline of data to evaluate how well our efforts improve the experience of library patrons and staff. 
 
 ## Data Update
 
@@ -193,7 +133,74 @@
 - Our our relationships with each other in the library and with other interested parties and patrons better than we started?
 - Our interested parties happier as an outcome of our efforts?
 
+## Communication
+
+Communication is essential to the success of this transition to linked data. 
+The work that will be done to make this transition cannot be accomplished in back doors or by only one or two departments. 
+Transitioning current metadata formats to linked data will impact and involve multiple departments and divisions. 
+This communication includes conveying the vision and direction of the road map at a macro level as well as working with the right people at each stage to ensure decisions are made with the correct understanding and involvement. 
+We can't afford to make assumptions when deciding how to implement the road map without first verifying our assumptions with those that know.
+At each stage we will need to make sure to involve the right people
+The plans and work of each stage will need to be well documented and shared so that all who are interested can know the status and progress of the work being done. 
+
+## Training
+
+The next core stage in this road map is training. 
+The training stage is meant to provide understanding and appreciation for the technology as well as the metadata and cataloging work being done by the library. 
+It is not designed to transform catalogers into LIT staff or LIT staff into catalogers but to give a base level of understanding that can be shared among staff. 
+
+Transitioning from the current metadata formats will require IT training for metadata and cataloging personnel. 
+This includes learning about:
+
+- web technologies like HTML, CSS, and JavaScript
+- XML and XSLT
+- different kinds of data models (i.e. flat, e-r, hierarchical, graph)
+- linked data and the semantic web including, (but not limited to), RDF, SPARQL, and web ontologies
+- Wikidata and Wikipedia
+- OpenRefine
+- the use of the terminal and Python for data manipulation and scripting
+
+There will also need to be metadata and cataloging training for LIT staff.
+This includes learning about:
+- the art and science of cataloging
+- authority work
+- MARC records and their variation and nuance including discussion about serials, bound-with items, series, and electronic items
+- cataloging tools such as MarcEdit, OCLC connexion, and Workflows
+
+This training can be accomplished in a variety of arenas:
+
+- LIT and cataloging forums for library
+- Regular tutorial training held monthly or (bi-weekly as necessary)
+- Small group or one-on-one training for interested staff
+
+The time commitment for this training would be offered on an as-needed basis and wouldn't take more than 10% of one's time each week. 
+
+## Scholarship
+
+The last on-going stage is Scholarship. 
+This refers to outreach and involvement within the scholarly community. 
+It includes attending relevant conferences, presenting at conferences, and publishing in monographs and/or journals.
+
+There is also opportunities to reach out to other institutions to learn from their experiences and receive feedback on our work. Some example institutions include
+
+- Local academic institutions in the Mountain West (i.e. U of U, U of Nevada)
+- other academic institutions doing linked data efforts (i.e. Stanford, U.C. Davis, Cornell, Harvard, University of Illinois at Urbana-Champaign)
+- International institutions and academic libraries
+- Library of Congress
+- OCLC
+
+This stage would also include joining and participating in professional or standard organizations and commitees. 
+
+- BIBFRAME
+- Schema.org and the bibliographic extension (https://bib.schema.org)
+- OCLC Project Passage and other linked data-related OCLC efforts
+- LD4P
+- PCC
+- NACO/SACO
+- IFLA
+- NISO
+
 # Ideas
 
-- Maps to introduce the roadmap idea/thesis
+- Maps to introduce the road map idea/thesis
 - Alice in Wonderland and the cat to introduce why/destination/begin with the end in mind
