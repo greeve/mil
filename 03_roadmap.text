@@ -1,7 +1,199 @@
 # Roadmap
 
+## Communication
+
+- essential to this working
+- don't make assumptions when deciding things
+- make sure to involve the right people for each phase and project
+- impact throughout the library
+- multi-division/multi-department effort; keep people in the loop
+- Regular updates/emails/reports on progress
+
+## Training
+
+- IT > cataloging
+    - learn web technologies
+    - HTML/CSS/JS
+    - Python
+    - data models
+        - flat (csv, tsv)
+        - e-r, rmdbs (sql)
+        - hierarchical (xml)
+        - graph (rdf)
+    - Linked data
+    - SPARQL
+    - Wikipedia
+    - Wikidata
+    - OpenRefine
+- cataloging > IT
+    - learn cataloging work
+    - understand the art and science of cataloging
+    - How authority work is done
+    - How items are cataloged/processed
+    - Learning about MARC records and various types of formats and their nuance
+        - serials
+        - bound width
+        - series
+        - electronic items?
+    - MarcEdit
+- understand/appreciate the tech
+- understand/appreciate cataloging and metadata
+- tech/cataloging forums for library
+    - are there existing forums where this is shared with the library?
+- regular trainings (monthly? biweekly?)
+- ongoing training to help staff in smaller groups rather than everyone all at once
+
+## Scholarship
+
+- scholarly community outreach and involvement
+- attend conferences
+- publish in journals
+- present at conferences
+- reach out to other institutions to learn from their experiences
+    - U of U
+    - U of Nevada
+    - Stanford
+    - U.C. Davis
+    - Cornell
+    - Harvard
+    - International? Academic research libraries in Europe?
+    - LOC
+- join professional or standards organizations/commitees/projects
+    - BIBFRAME
+    - OCLC project passage
+    - LD4P
+    - PCC
+    - NACO/SACO
+    - semantic web orgs
+    - Schema.org and bibliographic extension (https://bib.schema.org)
+    - IFLA
+- talk with vendors?
+
+## Assessment
+
+- Have to know where we have come and where we are to inform where we are going
+- begin with the end in mind (*is this appropriate here?*)
+- assess where we are currently
+- where have we come from
+- what has been done
+- what is being done
+    - ScholarSearch
+    - 856 fields?
+    - 0 subfield?
+    - Wikipedia/Wikidata work by HBLL Communications
+- understand fully the lifecycle of a metadata record 
+    - from birth to presentation
+    - from creation/copy to ScholarSearch
+    - process of creating/importing/maintaining/fixing/converting current records
+- usage stats (e.g. ScholarSearch stats tracker)
+- user testing
+- requirements gathering
+    - user focused
+    - needs assessment
+    - what needs do we have?
+    - what is the low hanging fruit we can fix?
+- establish metrics for measuring how we did at end
+    - optimize/efficient from a tech perspective
+    - also important is if our relationships in the library (between divisions/departments) improved through this process
+    - Is this a success if our relationships improves?
+    - Is this a success if our relationships with patrons (i.e. students, faculty, campus community) improves?
+
+## Data Update
+
+- reconcile and enrich
+- existing/known upgrade tasks
+- can we measure the number of types of data upgrading needed?
+- generate reports on data needing upgrading?
+- prioritize upgrade tasks
+    - low hanging fruit
+    - more complex data issues
+- determine acceptable level of upgraded
+- headings that aren't authorizing
+- data consistency
+- duplicates
+- determine toolsets and workflows
+    - MarcEdit
+    - (Shieh & Reese, 2015)
+    - OpenRefine
+    - Scripts
+    - source control system
+        - see history of changes
+        - revert
+        - see diffs
+- add URIs (reconciliation)
+    - automate as much as feesibly possible
+    - have staff review
+    - use various sources (LCNAF, VIAF, LCSH, Worldcat identities)
+    - use reconciliation services where available
+    - be able to mint our own local URIs
+- Named-entity resolution (NER) 
+    - link to Wikidata/Wikipedia
+- start with smaller chunks of data to gain experience
+    - sample from the local NAF
+    - try to extract more value out of the NAF
+    - types of bibliographic records (e.g. by format or location)
+    - sources of records (i.e. Sirsi, ArchivesSpace, CONTENTdm)
+- Apply to larger amounts of data working towards applying it to all sets of data
+
+## Data Conversion
+
+- in parallel (or in addition) to existing systems
+- determine tools and workflows
+    - source control system
+- convert MARC to RDF (BIBFRAME? Schema.org?)
+- convert RDF to MARC to check how well our conversion did and improve the conversion process
+- progressive conversion
+    - map out the discrete sets of data to convert
+    - convert a set at a time
+    - qa/qc after each conversion
+- develop crosswalks between formats
+    - BIBFRAME to Schema.org
+    - MARC to BIBFRAME
+    - MARC to Schema.org + bib
+    - ArchivesSpace + EAD
+    - CONTENTdm + DC
+
+## Data Publication
+
+- ways of publishing
+- publisher and consumer of linked data (i.e. pull info down from other sources like Wikipedia and display with local bibliographic/authority metadata)
+- Jacob Shelby
+- 5 stars of linked data (Tim Berners-Lee)
+- integrate with ScholarSearch
+    - goal is to improve what and how we show information to patron
+    - where can we help improve ScholarSearch data ingestion/transformation process?
+- create/experiment with new ways of exploring/browing/searching the data
+
+## Data Production
+
+- new workbench/tools/processes
+    - use 3rd part tools where they work
+    - otherwise will need to develop tools in-house
+    - bus/event driven
+    - evolve over time
+    - could evolve to a de-integrated library system with a common set/vocabulary of data with solid interoperability
+- source control
+    - diff changes
+    - history of changes and revert
+- less typing and more lookup and dropdown lists (strings to things)
+- helps in system to format data entry appropriately
+- strongly typed 
+- be able to check/verify the data are valid
+- data storage in ILS vs. data model
+    - don't need to understand how the ILS is storing the data
+    - how and what things can be said
+
+## Evaluation
+
+- reflection and lessons learned
+- compare results to assessment outcomes/goals/objectives
+- user tests
+- did we accomplish what we set out to accomplish?
+- did we improve things for the patron and staff?
+- Our our relationships with each other in the library and with other interested parties and patrons better than we started?
+- Our interested parties happier as an outcome of our efforts?
+
 # Ideas
 
 - Maps to introduce the roadmap idea/thesis
 - Alice in Wonderland and the cat to introduce why/destination/begin with the end in mind
-
