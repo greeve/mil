@@ -102,27 +102,20 @@ The results of this second conversion can provide feedback to improve the conver
 
 Once we have the processes in place to upgrade and convert our metadata we can work on publishing our linked data on the World Wide Web.
 
-Tim Berners-Lee talks about the five stars of linke data publishing (<https://www.w3.org/DesignIssues/LinkedData.html>).
-Stars 1-4 are about putting our data out there. 
-The 5 stars of linked data publishing is to follow 4 stars and to link to other people's data to provide context. 
-Publishing is about consuming as well.
-We need to be a publisher and consumer of linked data.
-
 There are various strategies we can follow in publishing our linked data (Shelby, 2017, p. 199-201). 
 We can do a data dump (e.g. Library of Congress).
-We can provide subject and name pages (i.e. browsing interfaces for exploring the linked data)
 We can embed the structured data in existing HTML pages (as RDFa or JSON-LD).
 We can provide a SPARQL endpoint.
 We can provide APIs.
+We can integrate with ScholarSearch to improve patron's ability to retrive information.
+We can create new browsing interfaces for exploring and discovering the data that mashup metadata about entities we have in our local data with data from other sources like Wikidata.
 
-- ways of publishing
-- publisher and consumer of linked data (i.e. pull info down from other sources like Wikipedia and display with local bibliographic/authority metadata)
-- Jacob Shelby
-- 5 stars of linked data (Tim Berners-Lee)
-- integrate with ScholarSearch
-    - goal is to improve what and how we show information to patron
-    - where can we help improve ScholarSearch data ingestion/transformation process?
-- create/experiment with new ways of exploring/browing/searching the data
+Tim Berners-Lee talks about the five stars of linked data publishing (<https://www.w3.org/DesignIssues/LinkedData.html>).
+Stars 1-4 are about making data available in increasingly more open and interoperable formats. 
+The 5 stars of linked data publishing follows all the practices recommended in stars 1-4 and adds links to other data out on the World Wide Web. 
+Publishing is about consuming as well.
+We need to be a publisher and consumer of linked data.
+We can also make this linked data available internally for other internal systems to consume and use. 
 
 ## Metadata Production
 
