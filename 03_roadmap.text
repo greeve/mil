@@ -43,6 +43,7 @@ This establishes a baseline of data to evaluate how well our efforts improve the
 Our current metadata records exist in various systems (e.g. ArchivesSpace, CONTENTdm, and SirsiDynix Symphony) and have artifacts from past systems (i.e. RLIN and NOTIS) and past metadata content standards.
 
 This stage is about reconciling and enriching our existing metadata to position us for conversion to linked data. 
+The work we do in this stage would establish tools and processes that we could use repeatedly in the future as the task of maintaining metadata doesn't go away when moving to linked data. 
 
 This work would include any existing efforts to upgrade metadata so the metadata is complete, correct, consistent, and avoids duplication.
 Are there headings that aren't authorizing, data that lacks consistency, or duplicate records?
@@ -73,23 +74,46 @@ Example tools and approaches to this work would include MarcEdit (Shieh & Reese,
 
 ## Metadata Conversion
 
-- in parallel (or in addition) to existing systems
-- determine tools and workflows
-    - source control system
-- convert MARC to RDF (BIBFRAME? Schema.org?)
-- convert RDF to MARC to check how well our conversion did and improve the conversion process
-- progressive conversion
-    - map out the discrete sets of data to convert
-    - convert a set at a time
-    - qa/qc after each conversion
-- develop crosswalks between formats
-    - BIBFRAME to Schema.org
-    - MARC to BIBFRAME
-    - MARC to Schema.org + bib
-    - ArchivesSpace + EAD
-    - CONTENTdm + DC
+Once our metadata is upgraded we will positioned to convert our metadata to linked data.
+This stage will lay the tools and processes for converting legacy data formats to linked data.
+
+Creating crosswalks for MARC to other schemas like BIBFRAME and Schema.org + bib is an initial step in this stage.
+Can we create a crosswalk from BIBFRAME to Schema.org?
+We also need crosswalks from EAD (ArchivesSpace) to BIBFRAME and EAD to Schema.org as well as for Dublin Core (CONTENTdm).
+These crosswalks enable us to convert to a linked data schema and back to the legacy format.
+
+This includes determining what format(s) we want to target (e.g. BIBFRAME, Schema.org + bib, RDA + RDF, or our own schema and application profile, or multiple).
+
+This stage will determine tools and workflows for converting the data. 
+This should include the use of source control to help track changes at this stage. 
+
+This conversion process would be done in parallel to existing systems. 
+Metadata would continue to be created in existing formats (i.e. MARC, EAD, and DC) but would be converted into the RDF-based schema as an additional step in the process. 
+
+The conversion would be done progressively. 
+The conversion process needs to support converting a batch of records as well as converting a single record.
+Similar to the approach in the metadata upgrade stage we would start with a smaller, discrete set of metadata to convert and work our way towards all metadata produced and maintained at the HBLL. 
+Care would be taken after each conversion to ensure that we are getting the results we expect and need.
+A way to check our conversion would be to convert the MARC to the RDF-based schema we are targeting and then convert that back to MARC. 
+This second conversion will provide a way for us to do a qa/qc on how well our conversion is working. 
+The results of this second conversion can provide feedback to improve the conversion process. 
 
 ## Metadata Publication
+
+Once we have the processes in place to upgrade and convert our metadata we can work on publishing our linked data on the World Wide Web.
+
+Tim Berners-Lee talks about the five stars of linke data publishing (<https://www.w3.org/DesignIssues/LinkedData.html>).
+Stars 1-4 are about putting our data out there. 
+The 5 stars of linked data publishing is to follow 4 stars and to link to other people's data to provide context. 
+Publishing is about consuming as well.
+We need to be a publisher and consumer of linked data.
+
+There are various strategies we can follow in publishing our linked data (Shelby, 2017, p. 199-201). 
+We can do a data dump (e.g. Library of Congress).
+We can provide subject and name pages (i.e. browsing interfaces for exploring the linked data)
+We can embed the structured data in existing HTML pages (as RDFa or JSON-LD).
+We can provide a SPARQL endpoint.
+We can provide APIs.
 
 - ways of publishing
 - publisher and consumer of linked data (i.e. pull info down from other sources like Wikipedia and display with local bibliographic/authority metadata)
@@ -195,6 +219,7 @@ This stage would also include joining and participating in professional or stand
 - NACO/SACO
 - IFLA
 - NISO
+- RDA
 
 # Ideas
 
