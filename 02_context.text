@@ -1,5 +1,18 @@
 # Context
 
+- begin with the end in mind
+
+- what is the problem (or set of problems) we are trying to solve?
+    - interoperability
+    - publish to and consume from this web of knowledge
+    - interchange and interface with internal and external systems in a standard, semnantic way
+    - data and metadata we generate is more human readable and less computer readable; not well understood by computers
+    - get into this knowledge graph
+    - play in the semantic web playground
+    - to play requires following their rules
+    - don't be left isolated on the web; integrate into the web of knowledge;
+    - like electricity you have standard ways of interfacing and exchanging with this to power devices and various things
+    - standard interface ports (micro usb vs. 30 pin; headphone jack vs. lightnight port; wired vs. wireless); benefits of following standards
 - define terms
 - data model and linked data primer
     - relationships do the heavy lifting to create context and understanding
@@ -7,5 +20,5 @@
         - data representation is more flexible
         - easier to get stuff in
         - harder to get stuff out
-- explain need for roadmap and answering the 'why'
-- begin with the end in mind
+        - doesn't need a central authority of the canonical data; that's great if its there but doesn't have to be
+- use the electricty analogy to talk about linked data; light bulbs and switches are manifestations of using electricity; they show one application of the technology but they aren't electricity; they manifest electricity

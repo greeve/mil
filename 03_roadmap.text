@@ -13,11 +13,8 @@ I will now explain each milestone in this road map.
 The first milestone or stage is assessment. We need to assess where we are currently, where we have come from, what has been done, and what is currently being done as it relates to metadata in the library. 
 
 This assessment stage includes diagramming and documenting the full lifecycle of a metadata record from birth to presentation; from creation or copy to the patron as exposed in ScholarSearch and from the main library website. 
-
 This lifecycle captures the processes followed in all the systems we use (e.g. Symphony, ArchivesSpace, CONTENTdm) for creating, importing, maintaining, fixing, and converting records so that they can be used by patrons and staff for information retrieval. 
-
 This lifecycle documentation will help give the library the full picture we need to be able to assess where we currently are and what is currently being done as it relates to metadata and linked data. 
-
 It can help identify pain points in the process as well as duplication of effort. 
 This can illuminate low hanging fruit that if fixed will improve our existing processes and better prepare us for the transition to linked data.
 
@@ -32,23 +29,22 @@ Are we a success if our efforts on this work leaves our community happier than b
 Gathering requirements is another key step in this stage. 
 What needs do we have in the library?
 What are the needs of our users? 
-
 Needs can be assessed by analyzing usage statistics (e.g. ScholarSearch stats tracker) for better understanding how our collections and items are being accessed and used. 
-
 Conducting user tests is also another way to assess user needs.
 This establishes a baseline of data to evaluate how well our efforts improve the experience of library patrons and staff. 
 
 ## Metadata Update
 
 Our current metadata records exist in various systems (e.g. ArchivesSpace, CONTENTdm, and SirsiDynix Symphony) and have artifacts from past systems (i.e. RLIN and NOTIS) and past metadata content standards.
-
 This stage is about reconciling and enriching our existing metadata to position us for conversion to linked data. 
 The work we do in this stage would establish tools and processes that we could use repeatedly in the future as the task of maintaining metadata doesn't go away when moving to linked data. 
 
 This work would include any existing efforts to upgrade metadata so the metadata is complete, correct, consistent, and avoids duplication.
 Are there headings that aren't authorizing, data that lacks consistency, or duplicate records?
 
-To prevent getting stuck in this stage we would need to identify and prioritize the upgrade tasks and determine what an acceptable data quality level is that we are trying to achieve. 
+To prevent getting stuck in this stage 
+We would need to identify and prioritize the upgrade tasks
+We would need to determine the acceptable level of data quality that we want to achieve
 What is the acceptable level of upgrade for our metadata?
 What reports do we have that can help us identify data upgrade tasks?
 Can we measure the number of types of metadata upgrading we need? 
@@ -119,19 +115,27 @@ We can also make this linked data available internally for other internal system
 
 ## Metadata Production
 
-- new workbench/tools/processes
-    - use 3rd part tools where they work
-    - otherwise will need to develop tools in-house
-    - bus/event driven
-    - evolve over time
-    - could evolve to a de-integrated library system with a common set/vocabulary of data with solid interoperability
-- source control
-    - diff changes
-    - history of changes and revert
-- less typing and more lookup and dropdown lists (strings to things)
-- helps in system to format data entry appropriately
-- strongly typed 
-- be able to check/verify the data are valid
+This stage is focused on establishing a production environment that creates metadata in a linked data format.
+This environment includes the tools, systems, and workflows we use to generate metadata. 
+We would try to use 3rd pary tools where they meet our needs and save us time and money. 
+Where we can't find a 3rd party solution we would need to develop tools in-house. 
+
+Characteristics of this cataloging environment would involve less typing and more lookup and reviewing. 
+This is made possible by the change from strings to things. 
+The system would provide helps where data entry is necessary (i.e. for dates or physical attributes of an item)
+Overall the system would have each data element be strongly typed and would provide automated checks and verifications of data entered to help assist the cataloging process. 
+Like previous stages the metadata created and maintained in this system would provide a source control mechanism that allows changes in a record to be tracked, diffed, and reverted. 
+
+This production system would need to support data import and export to and from MARC as the transition away from MARC will be gradual. 
+Work done in the metadata conversion stage would enable this ability. 
+
+Work on this production system would be evolved over time. 
+An event-drive architecture would give us flexibility in evolving and adapting this new production system to work with other library systems. 
+It may be that we move from an integrated library system to a de-integrated library system where each library system uses standardized data formats and schemas that know how to communicate with each other.
+To make this kind of message bus system work requires a common vocabulary for data to provide the needed interoperability. 
+
+- Maxwell quotation about library systems
+
 - data storage in ILS vs. data model
     - don't need to understand how the ILS is storing the data
     - how and what things can be said
@@ -150,6 +154,7 @@ We can also make this linked data available internally for other internal system
 
 Communication is essential to the success of this transition to linked data. 
 The work that will be done to make this transition cannot be accomplished in back doors or by only one or two departments. 
+It must be collaborative and inclusive. 
 Transitioning current metadata formats to linked data will impact and involve multiple departments and divisions. 
 This communication includes conveying the vision and direction of the road map at a macro level as well as working with the right people at each stage to ensure decisions are made with the correct understanding and involvement. 
 We can't afford to make assumptions when deciding how to implement the road map without first verifying our assumptions with those that know.
