@@ -1,6 +1,6 @@
 # Introduction
 
-In 1931 S. R. Ranganathan (rang-a-na-thun) posited five laws of library science:
+In 1931 S. R. Ranganathan (ran-ga-naw-thun) posited five laws of library science:
 
 1. Books are for use.
 2. Every reader his/her book.
@@ -10,10 +10,14 @@ In 1931 S. R. Ranganathan (rang-a-na-thun) posited five laws of library science:
 
 I want to focus our attention on the fifth law: the library is a growing organism.
 
-“It is an accepted biological fact that a growing organism alone will survive. An organism which ceases to grow will petrify and perish. The Fifth Law invites our attention to the fact that the library, as an institution, has all the attributes of a growing organism. A growing organism takes in new matter, casts off old matter, changes in size and takes new shapes and forms. Apart from sudden and apparently discontinuous changes involved in metamorphosis, it is also subject to a slow continuous change which leads to what is known as 'variation', in biological parlance, and to the evolution of new forms. This change is so slow but so effective that the protagonists of evolution assert that it is the shapeless undifferentiated protozoa of the Palaeozoic age that has transformed itself, by successive stages of variation, into the most differentiated specimen of creation —the human being. The one thing that has been persisting through all those changes of form has been the vital principle of life. So it is with the library” (Ranganathan, 1931, p. 382-383).
+“It is an accepted biological fact that a growing organism alone will survive. An organism which ceases to grow will petrify and perish....A growing organism takes in new matter, casts off old matter, changes in size and takes new shapes and forms” (Ranganathan, 1931, p. 382-383).
 
-- chart major changes in the library over time
+Libraries have evolved and transformed many times over their history. Examples include
+
+- 
+
+In our internet age libraries face another opportunity to grow.
 
 # Thesis
 
-The transition from “signpost” library metadata encoding models like MARC21, EAD, and Dublin Core to the use of linked data will be a massive, long-term undertaking. The success of this work will depend upon establishing a multi-year roadmap that includes objectives and milestones and considers the need for legacy metadata conversion, linked-data production, and entity resolution. 
+The transition from “signpost” library metadata encoding models like MARC21, EAD, and Dublin Core to the use of linked data will be a massive, long-term undertaking. The success of this work will depend upon establishing a multi-year roadmap with objectives and milestones that considers the need for legacy metadata conversion, linked-data production, and entity resolution. 
