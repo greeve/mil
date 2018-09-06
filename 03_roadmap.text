@@ -56,7 +56,7 @@ Another task in this stage is to add URIs to existing entities. In the MARC reco
 Work will need to be done to see how to best accomplish this step with other metadata formats. 
 Work we do in this stage to reconcile entities and assign a URI will ease our transition when we convert to a linked data format. 
 This reconcilliation step would utilize various reconciliation services to connect entities in our current metadata records with entities that already exist as linked open data. 
-Some sources include LCNAF, VIAF, LCSH, Worldcat identities, and Wikidata.
+Some sources include LCNAF, VIAF, LCSH, Worldcat identities, Wikidata, and GeoNames.
 Where we can't reconcile an entity in our metadata to an existing URI we will need to mint our own local URIs. 
 
 The use of named-entity resolution (NER) is an area to explore to extract out data from descriptive metadata fields in an automated fashion. Extracting these entities helps identify and reconcile entities further in cases where a simply lookup is insufficient.
