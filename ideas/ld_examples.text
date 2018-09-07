@@ -1,3 +1,22 @@
+# LOD Cloud
+
+- <https://lod-cloud.net>
+- <http://lodlaundromat.org>
+
+# BBC
+
+- <https://www.bbc.co.uk/ontologies>
+- <https://www.bbc.co.uk/programmes>
+- <https://www.bbc.com/sport>
+
+# Decentralized article publishing
+
+- <https://dokie.li>
+
+# Linked Data Applications (LDA)
+
+- <http://research.ld-r.org/adaptive-linked-data-driven-web-components>
+
 # Bio Medical field
 
 Janet Piñero, Núria Queralt-Rosinach, Àlex Bravo, Jordi Deu-Pons, Anna Bauer-Mehren, Martin Baron, Ferran Sanz, Laura I. Furlong; DisGeNET: a discovery platform for the dynamical exploration of human diseases and their genes, Database, Volume 2015, 1 January 2015, bav028, https://doi.org/10.1093/database/bav028
@@ -19,5 +38,34 @@ Keywords: Machine Translation; Semantic Web; Ontology; Linked Data; Multilingual
 
 # Journals
 
-<http://www.semantic-web-journal.net/issues>
-<https://www.sciencedirect.com/journal/journal-of-web-semantics>
+- <http://www.semantic-web-journal.net/issues>
+- <https://www.sciencedirect.com/journal/journal-of-web-semantics>
+
+# Data portal
+
+- <http://data.europa.eu>
+- <http://data.europa.eu/euodp/en/home>
+- <https://wiki.dbpedia.org>
+- <https://wikidata.org>
+
+# Initiatives
+
+- <http://americanartcollaborative.org>
+- <https://bibflow.library.ucdavis.edu>
+- <https://wiki.duraspace.org/pages/viewpage.action?pageId=74515029>
+- Coinage and currency vocabulary and entities, <http://nomisma.org>
+
+# Name Authorities
+
+- <http://www.geonames.org>
+
+# OCLC
+
+- Passage Retriever, <http://www.projectpassage.org/retriever/>
+
+# Tools
+
+- RDFUnit - RDF Unit Testing Suite, <https://github.com/AKSW/RDFUnit>
+- RML (RDF Mapping Language), <http://rml.io/index.html>
+- RML Editor, <http://rml.io/RMLeditor.html>
+- UMBEL (Upper mapping and binding exchange layer), <http://umbel.org>
