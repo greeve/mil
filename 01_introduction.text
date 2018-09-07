@@ -12,7 +12,7 @@ I want to focus on the fifth law: the library is a growing organism.
 
 “An organism which ceases to grow will petrify and perish...A growing organism takes in new matter, casts off old matter, changes in size and takes new shapes and forms” (Ranganathan, 1931, p. 382-383).
 
-The Harold B. Lee Library (HBLL) is a growing organism. It has evolved and transformed many times in its history. 
+The Harold B. Lee Library (HBLL) is a growing organism. It has evolved and transformed many times in its rich history. 
 
 Consider:
 
@@ -28,8 +28,12 @@ Consider:
 - adding electronic items including serials, ebooks, journal articles, and databases
 - developing web-based tools for staff and patrons
  
-In our highly computerized internet age the library faces another opportunity to grow.
+In our highly computerized internet age the library is experiencing another opportunity to grow.
 
-# Thesis
+# Prompt
 
-The transition from “signpost” library metadata encoding models like MARC21, EAD, and Dublin Core to the use of linked data will be a massive, long-term undertaking. The success of this work will depend upon establishing a multi-year roadmap with objectives and milestones that considers the need for legacy metadata conversion, linked-data production, and entity resolution. 
+In an effort to increase the visibility of collections, the library community has identified linked-data as a means to publish metadata describing their holdings on the WWW. With such metadata available to search engines libraries will become positioned where people actually look for information, — on Yandex, or Google. The idea is simple, but the process is not.
+
+Optimizing metadata for the Web will prove to be a massive, long-term undertaking involving both native linked-data production and legacy metadata conversion. For this presentation, outline a mult-year roadmap for the Harold B. Lee Library to transition from "signpost" encoding models like MARC-21, EAD3 and Dublin Core to the use of URIs, HTTP and RDF. Identify and discuss major milestones in the process, with specific attention directed to entity resolution.
+
+My presentation today aims to outline a multi-year roadmap for the Harold B. Lee Library to transition to a linked data model.
