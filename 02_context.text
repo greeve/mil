@@ -7,27 +7,50 @@
 
 Carol, 1946, p. 71-72
 
-Like the Cheshire Cat told Alice we need to know where we want to get to know which way to go. 
+Like the Cheshire Cat told Alice we need to know our destination to know the direction to take.
 We need to begin with the end in mind. 
 
 What is linked data?
 Why map our bibliographic and authority metadata to the Semantic web?
 
-The World Wide Web started in 1989. 
-The World Wide Web is the network of documents with hyperlinks to other documents.
+The World Wide Web was created in 1989. 
+
+It is a network of documents with hyperlinks to other documents.
+
 There are standards for marking up these documents and linking to other documents. 
-While these documents can be parsed by humans and machines, they are primarily for humans. 
+
+Derriving semantic meaning from these documents is easy for humans and very challenging for computers. 
 
 The Semantic web is an extension of the WWW that establishes standard data formats and interchange protocols enabling data to be shared and reused.
+
+We are moving from hyperlinked documents to hyperlinked datasets.
+
 Linked data is the means of publishing structured data so that it can be interlinked and traversed by computers. 
 
 "[Linked data] is a navigable Web of knowledge crafted for computers" (Powell & Hopkins, 2015, p. 66).
 
-Access to information is a core value of libraries and is a strategic direction of this library. 
+How does it create this "navigable Web of knowledge"?
+
+1. Use URIs as names for things
+    - An example URI: urn:isbn:1-931666-22-9
+2. Use HTTP URIs so that people can look up those names.
+    - e.g. <http://viaf.org/viaf/27068555>
+3. When someone looks up a URI, provide useful information, using the standards (RDF, SPARQL)
+    - Resource Description Framework (RDF)
+    - SPARQL Protocol and RDF Query Language (SPARQL)
+4. Include links to other URIs. so that they can discover more things.
+
+Berners-Lee, 2009
+
+Access to information is a core value of libraries and is a strategic direction of this library.
+
 Transitioning library metadata to linked data is about plugging into this "Web of knowledge" that enables greater interoperability in publishing to and consuming from this knowledge web. 
-The data is self-documenting and self-describing.
-It puts the structured information and items we have carefully described and curated over the years into standard formats that provide interoperability, visibility, and discoverability.
-This transition will enable us to do new things in terms of publishing, enriching, and consuming information.
+
+Linked data is self-documenting and self-describing.
+
+Transitioning to a linked data model takes the carefully crafted metadata descriptions by catalogers and library staff and puts it into standard formats that provide interoperability, visibility, and discoverability in context with other linked data available on the web.
+
+Plugging into this web of information lays a foundation that enables new growth in how we provide access to information; it improves the way we publish and enrich information.
 
 "The goals of mapping bibliographic metadata to the Semantic web are to make the data open, integrate it with linked data, and to facilitate alternate forms of resource and information discovery. Depending upon the tools that are built to explore this data, RDF can be a good way of recapturing some of the serendipitous discovery that was possible in physical libraries and other catalog systems, all the way back to the card catalog."
 
@@ -41,7 +64,6 @@ Why make this transition?
 - serendipity
 
 Linked data enables us to infuse more context into browsing and search.
-This work to be a part of this web of information lays a foundation to enable new growth in how we provide access to information.
 
 "[B]ibliographic metadata becomes embedded into a larger distributed, crowd-sourced knowledge representation environment, with all the risks and rewards such an environment provides."
 
