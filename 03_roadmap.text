@@ -1,8 +1,11 @@
 # Roadmap
 
-Roadmaps are a plan or strategy intended to achieve a particular purpose. They help one see where they are, where they are going, and how to get to their destination. Here is a road map for helping the Harold B. Lee Library transition from the current metadata formats to linked data. 
+Roadmaps are a plan or strategy intended to achieve a particular purpose. 
+They help one see where they are, where they are going, and how to get to their destination. 
 
-This road map consists of two types of milestones (or in other words stages): on-going and discrete milestones. Communication, training, and scholarship are milestones that will be on-going throughout the transition from current metadata formats to linked data. Assessment, data update, data conversion, data publication, data production, and evaluation are discrete milestones that have a beginning and end. 
+Here is a road map for helping the Harold B. Lee Library transition from the current metadata formats to linked data. 
+
+The milestones (or stages) in this roadmap are listed on the right.
 
 I will now explain each milestone in this road map.
 
@@ -16,7 +19,7 @@ This assessment stage includes diagramming and documenting the full lifecycle of
 This lifecycle captures the processes followed in all the systems we use (e.g. Symphony, ArchivesSpace, CONTENTdm) for creating, importing, maintaining, fixing, and converting records so that they can be used by patrons and staff for information retrieval. 
 This lifecycle documentation will help give the library the full picture we need to be able to assess where we currently are and what is currently being done as it relates to metadata and linked data. 
 It can help identify pain points in the process as well as duplication of effort. 
-This can illuminate low hanging fruit that if fixed will improve our existing processes and better prepare us for the transition to linked data.
+This can illuminate low hanging fruit that if updated will improve our existing processes and better prepare us for the transition to linked data.
 
 This entire transition effort needs to be user-focused meaning that we focus on the needs of our users (i.e. students, faculty, BYU community, and staff). Our efforts must be in the service of our users to improve their ability to discover and retrive information.
 
@@ -70,7 +73,7 @@ Example tools and approaches to this work would include MarcEdit (Shieh & Reese,
 
 ## Metadata Conversion
 
-Once our metadata is upgraded we will positioned to convert our metadata to linked data.
+Once our metadata is upgraded we will positioned to convert our metadata to the linked data model.
 This stage will lay the tools and processes for converting legacy data formats to linked data.
 
 Creating crosswalks for MARC to other schemas like BIBFRAME and Schema.org + bib is an initial step in this stage.
@@ -81,17 +84,18 @@ These crosswalks enable us to convert to a linked data schema and back to the le
 This includes determining what format(s) we want to target (e.g. BIBFRAME, Schema.org + bib, RDA + RDF, or our own schema and application profile, or multiple).
 
 This stage will determine tools and workflows for converting the data. 
-This should include the use of source control to help track changes at this stage. 
+Similar to the previous stage this stage should include the use of source control to help track changes.
 
 This conversion process would be done in parallel to existing systems. 
 Metadata would continue to be created in existing formats (i.e. MARC, EAD, and DC) but would be converted into the RDF-based schema as an additional step in the process. 
 
 The conversion would be done progressively. 
 The conversion process needs to support converting a batch of records as well as converting a single record.
-Similar to the approach in the metadata upgrade stage we would start with a smaller, discrete set of metadata to convert and work our way towards all metadata produced and maintained at the HBLL. 
+Similar to the approach in the metadata upgrade stage we would start with a smaller, discrete set of metadata to convert.
+We can then work our way towards converting all metadata produced and maintained at the HBLL. 
 Care would be taken after each conversion to ensure that we are getting the results we expect and need.
 A way to check our conversion would be to convert the MARC to the RDF-based schema we are targeting and then convert that back to MARC. 
-This second conversion will provide a way for us to do a qa/qc on how well our conversion is working. 
+This second conversion will provide a way for us to do a quality control check on how well our conversion is working. 
 The results of this second conversion can provide feedback to improve the conversion process. 
 
 ## Metadata Publication
@@ -115,7 +119,7 @@ We can also make this linked data available internally for other internal system
 
 ## Metadata Production
 
-This stage is focused on establishing a production environment that creates metadata in a linked data format.
+This stage is focused on establishing a production environment that creates metadata following a linked data model.
 This environment includes the tools, systems, and workflows we use to generate metadata. 
 We would try to use 3rd pary tools where they meet our needs and save us time and money. 
 Where we can't find a 3rd party solution we would need to develop tools in-house. 
@@ -175,10 +179,10 @@ This includes learning about:
 - different kinds of data models (i.e. flat, e-r, hierarchical, graph)
 - linked data and the semantic web including, (but not limited to), RDF, SPARQL, and web ontologies
 - Wikidata and Wikipedia
-- OpenRefine
+- OpenRefine (like Excel but on steroids)
 - the use of the terminal and Python for data manipulation and scripting
 
-There will also need to be metadata and cataloging training for LIT staff.
+There will also need to be metadata and cataloging training for LIT and other staff as needed.
 This includes learning about:
 - the art and science of cataloging
 - authority work
@@ -195,7 +199,7 @@ The time commitment for this training would be offered on an as-needed basis and
 
 ## Scholarship
 
-The last on-going stage is Scholarship. 
+The last stage is Scholarship. 
 This refers to outreach and involvement within the scholarly community. 
 It includes attending relevant conferences, presenting at conferences, and publishing in monographs and/or journals.
 
