@@ -7,7 +7,47 @@
 
 Carol, 1946, p. 71-72
 
-- begin with the end in mind
+Like the Cheshire Cat told Alice we need to know where we want to get to know which way to go. 
+We need to begin with the end in mind. 
+
+What is linked data?
+Why map our bibliographic and authority metadata to the Semantic web?
+
+The World Wide Web started in 1989. 
+The World Wide Web is the network of documents with hyperlinks to other documents.
+There are standards for marking up these documents and linking to other documents. 
+While these documents can be parsed by humans and machines, they are primarily for humans. 
+
+The Semantic web is an extension of the WWW that establishes standard data formats and interchange protocols enabling data to be shared and reused.
+Linked data is the means of publishing structured data so that it can be interlinked and traversed by computers. 
+
+"[Linked data] is a navigable Web of knowledge crafted for computers" (Powell & Hopkins, 2015, p. 66).
+
+Access to information is a core value of libraries and is a strategic direction of this library. 
+Transitioning library metadata to linked data is about plugging into this "Web of knowledge" that enables greater interoperability in publishing to and consuming from this knowledge web. 
+The data is self-documenting and self-describing.
+It puts the structured information and items we have carefully described and curated over the years into standard formats that provide interoperability, visibility, and discoverability.
+This transition will enable us to do new things in terms of publishing, enriching, and consuming information.
+
+"The goals of mapping bibliographic metadata to the Semantic web are to make the data open, integrate it with linked data, and to facilitate alternate forms of resource and information discovery. Depending upon the tools that are built to explore this data, RDF can be a good way of recapturing some of the serendipitous discovery that was possible in physical libraries and other catalog systems, all the way back to the card catalog."
+
+Powell & Hopkins, 2015, p. 132
+
+Why make this transition?
+
+- interoperability
+- visibility
+- discoverability
+- serendipity
+
+Linked data enables us to infuse more context into browsing and search.
+This work to be a part of this web of information lays a foundation to enable new growth in how we provide access to information.
+
+"[B]ibliographic metadata becomes embedded into a larger distributed, crowd-sourced knowledge representation environment, with all the risks and rewards such an environment provides."
+
+Powell & Hopkins, 2015, p. 132
+
+***
 
 - what is the problem (or set of problems) we are trying to solve?
     - interoperability

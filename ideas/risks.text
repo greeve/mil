@@ -1,0 +1,15 @@
+# Risks
+
+- security and privacy
+    - how open should the data be?
+    - what do we want available?
+    - XML, other tech that may expose a vulnerability?
+- less mature tooling ecosystem
+    - db tech not as mature as RMDBS
+    - less number of tools to work with data
+- takes more effort to get data out
+- barriers to extract use the data but huge rewards when you do
+- open world assumption and Non-unique naming assumption
+    - some messiness in data
+    - no one cannonical source necessarily by virtue of the tech/standards
+    - this can be seen as a virtue but coming from other data model paradigms it may seem as a weakness
