@@ -34,6 +34,6 @@ In our highly computerized internet age the library is experiencing another oppo
 
 In an effort to increase the visibility of collections, the library community has identified linked-data as a means to publish metadata describing their holdings on the WWW. With such metadata available to search engines libraries will become positioned where people actually look for information, — on Yandex, or Google. The idea is simple, but the process is not.
 
-Optimizing metadata for the Web will prove to be a massive, long-term undertaking involving both native linked-data production and legacy metadata conversion. For this presentation, outline a mult-year roadmap for the Harold B. Lee Library to transition from "signpost" encoding models like MARC-21, EAD3 and Dublin Core to the use of URIs, HTTP and RDF. Identify and discuss major milestones in the process, with specific attention directed to entity resolution.
+Optimizing metadata for the Web will prove to be a massive, long-term undertaking involving both native linked-data production and legacy metadata conversion. For this presentation, outline a multi-year roadmap for the Harold B. Lee Library to transition from "signpost" encoding models like MARC-21, EAD3 and Dublin Core to the use of URIs, HTTP and RDF. Identify and discuss major milestones in the process, with specific attention directed to entity resolution.
 
 My presentation today aims to outline a multi-year roadmap for the Harold B. Lee Library to transition to a linked data model.
