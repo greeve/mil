@@ -36,7 +36,7 @@ Needs can be assessed by analyzing usage statistics (e.g. ScholarSearch stats tr
 Conducting user tests is also another way to assess user needs.
 This establishes a baseline of data to evaluate how well our efforts improve the experience of library patrons and staff. 
 
-## Metadata Update
+## Preparation
 
 Our current metadata records exist in various systems (e.g. ArchivesSpace, CONTENTdm, and SirsiDynix Symphony) and have artifacts from past systems (i.e. RLIN and NOTIS) and past metadata content standards.
 This stage is about reconciling and enriching our existing metadata to position us for conversion to linked data. 
@@ -71,7 +71,7 @@ Where we can't automate tasks successfully we would have staff intervene.
 Choosing the best tools and approaches for each upgrade task will be crucial to assist in the automation and review of each upgrade task. 
 Example tools and approaches to this work would include MarcEdit (Shieh & Reese, 2015), OpenRefine, programming scripts, and the use of a source control system that gives us the ability to see the history of changes we make to records, revert to previous versions of the metadata record, and see side-by-side diffs of what changes we make to a record. 
 
-## Metadata Conversion
+## Conversion
 
 Once our metadata is upgraded we will positioned to convert our metadata to the linked data model.
 This stage will lay the tools and processes for converting legacy data formats to linked data.
@@ -98,7 +98,7 @@ A way to check our conversion would be to convert the MARC to the RDF-based sche
 This second conversion will provide a way for us to do a quality control check on how well our conversion is working. 
 The results of this second conversion can provide feedback to improve the conversion process. 
 
-## Metadata Publication
+## Publication
 
 Once we have the processes in place to upgrade and convert our metadata we can work on publishing our linked data on the World Wide Web.
 
@@ -117,7 +117,7 @@ Publishing is about consuming as well.
 We need to be a publisher and consumer of linked data.
 We can also make this linked data available internally for other internal systems to consume and use. 
 
-## Metadata Production
+## Production
 
 This stage is focused on establishing a production environment that creates metadata following a linked data model.
 This environment includes the tools, systems, and workflows we use to generate metadata. 
