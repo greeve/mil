@@ -39,7 +39,7 @@ This establishes a baseline of data to evaluate how well our efforts improve the
 ## Preparation
 
 Our current metadata records exist in various systems (e.g. ArchivesSpace, CONTENTdm, and SirsiDynix Symphony) and have artifacts from past systems (i.e. RLIN and NOTIS) and past metadata content standards.
-This stage is about reconciling and enriching our existing metadata to position us for conversion to linked data. 
+This stage is about cleaning, reconciling, and enriching our existing metadata to position us for conversion to linked data. 
 The work we do in this stage would establish tools and processes that we could use repeatedly in the future as the task of maintaining metadata doesn't go away when moving to linked data. 
 
 This work would include any existing efforts to upgrade metadata so the metadata is complete, correct, consistent, and avoids duplication.
