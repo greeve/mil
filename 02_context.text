@@ -71,6 +71,8 @@ Powell & Hopkins, 2015, p. 132
 
 ***
 
+- we have structured data but not in a format or following a model that is interoperable outside the library world
+- we want to be connected to that outside web of knowledge
 - what is the problem (or set of problems) we are trying to solve?
     - interoperability
     - publish to and consume from this web of knowledge
